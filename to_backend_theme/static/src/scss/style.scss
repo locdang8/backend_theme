@@ -97,7 +97,7 @@ body {
 			> label,
 			> a {
 				&:hover,
-				&focus{
+				&:focus{
 					background-color: $brand-primary-darker;
 				}
 			}
