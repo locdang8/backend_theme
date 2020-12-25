@@ -518,9 +518,9 @@ select {
 		color: $brand-secondary;
 		> span:first-child {
 			color: $brand-secondary;
-		}
-		> span:first-child:hover {
-			color: $brand-secondary-dark;
+			&:hover {
+				color: $brand-secondary-dark;
+			}
 		}
 		&:hover {
 			color: $brand-secondary-dark;
@@ -661,6 +661,11 @@ select {
 
 		.o_onboarding_step_action {
 			border-color: fade-out(white, 0.5);
+			&.btn {
+				&:active {
+					background-color: $brand-primary-darker !important;
+				}
+			}
 		}
 
 		.progress-bar {
