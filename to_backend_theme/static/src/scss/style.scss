@@ -522,7 +522,7 @@ select {
 		> span:first-child:hover {
 			color: $brand-secondary-dark;
 		}
-		:hover {
+		&:hover {
 			color: $brand-secondary-dark;
 		}
 	}
