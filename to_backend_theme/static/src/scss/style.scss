@@ -376,7 +376,7 @@ select {
 			> tr {
 				> th {
 					&.o_column_sortable {
-						:hover {
+						&:hover {
 							background-color: #D6D6D3;
 						}
 					}
