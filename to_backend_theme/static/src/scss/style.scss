@@ -339,14 +339,14 @@ select {
 		background-color: $brand-secondary-super-lighter !important;
 		border-bottom: 1px solid $brand-secondary;
 		&:focus{
-			border-bottom: 2px solid $brand-secondary;
+			border-bottom: 2px solid $brand-secondary !important;
 		}
 	}
 	textarea,
 	select {
 		border-bottom: 1px solid $brand-secondary;
 		&:focus{
-			border-bottom: 2px solid $brand-secondary;
+			border-bottom: 2px solid $brand-secondary !important;
 		}
 	}
 }
