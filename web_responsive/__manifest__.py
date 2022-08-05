@@ -9,6 +9,8 @@
     "version": "14.0.1.2.0",
     "category": "Website",
     "website": "https://github.com/OCA/web",
+    'live_test_url': "https://v14demo-int.viindoo.com",
+    'live_test_url_vi_VN': "https://v14demo-vn.viindoo.com",
     "author": "LasLabs, Tecnativa, " "Odoo Community Association (OCA)",
     "license": "LGPL-3",
     "installable": True,
