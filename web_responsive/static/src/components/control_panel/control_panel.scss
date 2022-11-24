@@ -25,7 +25,7 @@
         }
         .o_cp_top_right,
         .o_cp_bottom_right {
-            width: 40%;
+            min-width: 40%;
         }
     }
     @include media-breakpoint-only(md) {
